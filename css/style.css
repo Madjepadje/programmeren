@@ -1,0 +1,235 @@
+body {
+    background-color:pink; 
+    margin: 0;
+    padding: 0; 
+}
+
+.container{
+    border: solid 1px black; 
+    margin-left: 0.5em; 
+}
+
+.vorm{
+    position: abosolute;
+    width: 100%;
+    height: 100px; 
+    background-color: black; 
+    box-shadow: 0px 10px 20px black;
+    z-index: 999; 
+}
+.wit {
+    display: flex; 
+    margin: auto;
+    float: left; 
+    margin-left: 1em; 
+    height: 30em; 
+    width: 8em;
+    cursor: grab; 
+}
+.a2 {
+    display: flex; 
+    margin: auto;
+    float: left; 
+    margin-left: 1em; 
+    height: 30em; 
+    width: 8em;
+    cursor: grab;
+}
+
+
+
+
+.zwart, .zwart1, .zwart2, .zwart3, .zwart4, .zwart5, .zwart6, .zwart7, .zwart8 {
+    position: absolute;
+    height: 25em; 
+    width: 4em;
+    z-index: 99; 
+    margin-top: 0;
+    margin-left: -82.5em;
+    border: 1px solid black;
+    background: linear-gradient(to bottom, gray 0%, black 100%);
+    cursor: pointer; 
+}
+
+.zwart:hover {
+    background: linear-gradient(to bottom, black 100%, gray 0%);
+}
+
+.zwart1{
+    margin-left: -73em;
+}
+
+.zwart1:hover {
+    background: linear-gradient(to bottom, black 100%, gray 0%);
+}
+
+.zwart2{
+    margin-left: -64em;
+    display: none;
+}
+
+.zwart2:hover {
+    background: linear-gradient(to bottom, black 100%, gray 0%);
+}
+
+.zwart3{
+    margin-left: -55em;
+   
+}
+
+.zwart3:hover {
+    background: linear-gradient(to bottom, black 100%, gray 0%);
+}
+
+.zwart4{
+    margin-left: -46em;
+}
+
+.zwart4:hover {
+    background: linear-gradient(to bottom, black 100%, gray 0%);
+}
+
+.zwart5{
+    margin-left: -37em;
+}
+
+.zwart5:hover {
+    background: linear-gradient(to bottom, black 100%, gray 0%);
+}
+
+.zwart6{
+    margin-left: -28em;
+    display: none;
+}
+
+.zwart6:hover {
+    background: linear-gradient(to bottom, black 100%, gray 0%);
+}
+
+.zwart7{
+    margin-left: -19em;
+}
+
+.zwart7:hover {
+    background: linear-gradient(to bottom, black 100%, gray 0%);
+}
+
+.zwart8{
+    margin-left: -10em;
+}
+
+.zwart8:hover {
+    background: linear-gradient(to bottom, black 100%, gray 0%);
+}
+
+/* .zwart1 {
+    position: absolute; 
+    height: 25em; 
+    width: 4em; 
+    z-index: 99; 
+    margin-top: 0;
+    margin-left: -73em; 
+    border: 1px solid black;
+    background: linear-gradient(to bottom, gray 0%, black 100%);
+    cursor: pointer; 
+}
+
+.zwart1:hover {
+    background: linear-gradient(to bottom, black 100%, gray 0%);
+}
+
+.zwart2 {
+    position: absolute; 
+    height: 25em; 
+    width: 4em; 
+    z-index: 99; 
+    margin-top: 0;
+    margin-left: -64em; 
+    border: 1px solid black;
+    background: linear-gradient(to bottom, gray 0%, black 100%);
+    cursor: pointer; 
+}
+
+.zwart2:hover {
+    background: linear-gradient(to bottom, black 100%, gray 0%);
+}
+
+.zwart3 {
+    position: absolute; 
+    height: 25em; 
+    width: 4em; 
+    z-index: 99; 
+    margin-top: 0;
+    margin-left: -55em; 
+    border: 1px solid black;
+    background: linear-gradient(to bottom, gray 0%, black 100%);
+    cursor: pointer; 
+}
+
+.zwart3:hover {
+    background: linear-gradient(to bottom, black 100%, gray 0%);
+}
+
+.zwart4 {
+    position: absolute; 
+    height: 25em; 
+    width: 4em; 
+    z-index: 99; 
+    margin-top: 0;
+    margin-left: -46em; 
+    border: 1px solid black;
+    background: linear-gradient(to bottom, gray 0%, black 100%);
+    cursor: pointer; 
+}
+
+.zwart4:hover {
+    background: linear-gradient(to bottom, black 100%, gray 0%);
+}
+
+.zwart5 {
+    position: absolute; 
+    height: 25em; 
+    width: 4em; 
+    z-index: 99; 
+    margin-top: 0;
+    margin-left: -37em; 
+    border: 1px solid black;
+    background: linear-gradient(to bottom, gray 0%, black 100%);
+    cursor: pointer; 
+}
+
+.zwart5:hover {
+    background: linear-gradient(to bottom, black 100%, gray 0%);
+}
+
+.zwart6 {
+    position: absolute; 
+    height: 25em; 
+    width: 4em; 
+    z-index: 99; 
+    margin-top: 0;
+    margin-left: -28em; 
+    border: 1px solid black;
+    background: linear-gradient(to bottom, gray 0%, black 100%);
+    cursor: pointer; 
+}
+
+.zwart6:hover {
+    background: linear-gradient(to bottom, black 100%, gray 0%);
+}
+
+.zwart7 {
+    position: absolute; 
+    height: 25em; 
+    width: 4em; 
+    z-index: 99; 
+    margin-top: 0;
+    margin-left: -19em; 
+    border: 1px solid black;
+    background: linear-gradient(to bottom, gray 0%, black 100%);
+    cursor: pointer; 
+}
+
+.zwart7:hover {
+    background: linear-gradient(to bottom, black 100%, gray 0%);
+} */
