@@ -1,0 +1,15 @@
+.container {
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-template-rows: 100%;
+    background-color: pink;
+}
+
+.wit1, .wit2, .wit3, .wit4, .wit5, .wit6, .wit7, .wit8, .wit9, .wit10 {
+    height: 20em;
+}
+
+.zwart1, .zwart2, .zwart3, .zwart4, .zwart5, .zwart6, .zwart7, .zwart8, .zwart9 {
+    background-color: black;
+    position: absolute; 
+}
