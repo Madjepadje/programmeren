@@ -5,16 +5,17 @@ var audio2 = document.getElementById("sound-b1");
 console.log(audio1);
 
 
-document.onkeydown = checkKey;
+// document.onkeydown = checkKey;
 
-function checkKey(e) {
-    if (e.keyCode == '65') {
-      console.log('you clicked a');
+// function checkKey(e) {
+//     if (e.keyCode == '65') {
+//       audio1.play();
+//       console.log('you clicked a');
 
-    }else if (e.keyCode == '83') {
-      console.log('you clicked s');
-    }
-  }
+//     }else if (e.keyCode == '83') {
+//       console.log('you clicked s');
+//     }
+//   }
 
   function geluid(){
     audio1.play();
