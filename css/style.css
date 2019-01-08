@@ -1,22 +1,22 @@
-.container{
+.container {
     height: 20em; 
     width: 76em; 
     border: solid 1px black; 
     display: flex;
 }
 
-.wit1, .wit2, .wit3, .wit4, .wit5, .wit6, .wit7, .wit8, .wit9, .wit10 {
+.toetsen {
     display: flex;
     align-items: stretch; 
     width: 10em;
     margin-left: 1em;  
 }
 
-.wit:active{
+.wit:active {
     background-color: pink; 
 }
 
-.zwart1, .zwart2, .zwart3, .zwart4, .zwart5, .zwart6, .zwart7 {
+.Ztoetsen {
     display:flex; 
     position: absolute; 
     background-color: black; 
@@ -25,27 +25,27 @@
     margin-left: 8em; 
 }
 
-.zwart2 {
+#zwart2 {
     margin-left: 19em; 
 }
 
-.zwart3 {
+#zwart3 {
     margin-left: 41em;
 }
 
-.zwart4 {
+#zwart4 {
     margin-left: 52em; 
 }
 
-.zwart5 {
+#zwart5 {
     margin-left: 63em; 
 }
 
-.zwart6 {
+#zwart6 {
     margin-left: 85em;
 }
 
-.zwart7 {
+#zwart7 {
     margin-left: 96em; 
 }
 
